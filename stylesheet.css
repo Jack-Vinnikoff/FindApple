@@ -1,0 +1,154 @@
+.wropper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background-size: cover;
+    background-image: url("img/back.jpg");
+    padding-top: 0;
+    text-align: center;
+}
+.container{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 25px 25px 0 25px;
+
+
+}
+.block{
+    position: absolute;
+    float: left;
+    border: 1px solid #227f5e;
+    border-radius: 8px;
+    position: relative;
+    width:15%;
+    height: 15%;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #00ffa5;
+    -webkit-box-shadow: -7px 10px 24px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 10px 24px -4px rgba(0,0,0,0.75);
+    box-shadow: -7px 10px 24px -4px rgba(0,0,0,0.75);
+
+
+}
+
+
+.block:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+.bomber{
+
+    background-size: cover;
+    background-image: url("img/cherv.jpg");
+    pointer-events: none;
+
+}
+
+
+.apple{
+    background-size: cover;
+    background-image: url("img/apple.jpg");
+    pointer-events: none;
+}
+
+
+.header{
+    font-size: 50px;
+    color:#05820f;
+    text-transform: uppercase;
+}
+.bomber p, .apple p{
+    opacity: 0;
+}
+
+.try{
+    text-align: center;
+    color:white;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: 145px;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #bf2443;
+    text-transform: uppercase;
+    padding-top: 5px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.find{
+    padding-top: 5px;
+    padding-left: 10px;
+    position: absolute;
+    text-align: left;
+    margin-top:-80px;
+    margin-left: 20px;
+    margin-right: 75px;
+    width: 25%;
+    height: 100px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.imgApple{
+    position: relative;
+    width:20%;
+    border:1px solid black;
+    margin-left: 150px;
+    height: 100%;
+}
+#restart{
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 40px;
+    background-color: #bf2443;
+    width:300px;
+    height: 40px;
+    border-radius: 16px;
+    text-transform: uppercase;
+    color:white;
+    -webkit-box-shadow: -7px 10px 24px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px 10px 24px -4px rgba(0,0,0,0.75);
+    box-shadow: -7px 10px 24px -4px rgba(0,0,0,0.75);
+    outline: none;
+}
+.selectModel{
+    margin-top: 90px;
+    margin-left: 20px;
+    position: absolute;
+    width: 25%;
+    text-transform: uppercase;
+    padding: 5px 0 5px 0;
+}
+
+#regularVerbs, #irregularVerbs{
+    margin-bottom: 20px;
+    width: 300px;
+    text-transform: uppercase;
+    height: 40px;
+    border-radius: 16px;
+    outline: none;
+    cursor: pointer;
+    background-color: #4f2f35;
+    color:white;
+}
+
+#regularVerbs:focus, #irregularVerbs:focus{
+    background-color: #1d6d2e;
+}
