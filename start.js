@@ -119,7 +119,7 @@ function main() {
     document.getElementById('try').textContent=cnt;
     document.getElementById('allApples').textContent=allApples;
     restart.addEventListener('click',reLoad)
-    //document.getElementById('irregularVerbs').focus();
+
 
 }
 main();

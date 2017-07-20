@@ -136,6 +136,7 @@
     width: 25%;
     text-transform: uppercase;
     padding: 5px 0 5px 0;
+    display: none;
 }
 
 #regularVerbs, #irregularVerbs{
